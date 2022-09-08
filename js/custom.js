@@ -5,6 +5,18 @@ function getYear() {
     document.querySelector("#displayYear").innerHTML = currentYear;
 }
 
+function handlerAdd(){
+   
+    var x = document.querySelector('.add')
+    console.log(x);
+    // if (x.style.display === "none") {
+        x.style.display = "block";
+    // } else {
+    //     x.style.display = "none";
+    // }
+    
+
+}
 getYear();
 
 
